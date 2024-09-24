@@ -51,7 +51,7 @@ function Tap() {
                             324,293
                         </div>
                         </div>
-                        <div className="flex justify-center" onClick={handleIncrement}>
+                        <div className="flex justify-center cursor-pointer" onClick={handleIncrement}>
                             <img src="./imgs/errorloading.png" alt="pic" />
                             <AnimatePresence>
                                 {animations.map((animation) => (

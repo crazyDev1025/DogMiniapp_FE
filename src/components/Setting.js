@@ -48,7 +48,7 @@ function Setting() {
         </div>
 
         <div className="px-[30px]">
-          <div className="mb-[15px]" onClick={() => navigate("/lang")}>
+          <div className="mb-[15px] cursor-pointer" onClick={() => navigate("/lang")}>
             <div className="text-[17px] leading-[25px] font-semibold text-white text-left">
               Language
             </div>
@@ -80,7 +80,7 @@ function Setting() {
             </div>
           </div>
 
-          <div className="mb-[15px]" onClick={() => navigate("/appearance")}>
+          <div className="mb-[15px] cursor-pointer" onClick={() => navigate("/appearance")}>
             <div className="text-[17px] leading-[25px] font-semibold text-white text-left">
               Appearance
             </div>
@@ -90,7 +90,7 @@ function Setting() {
           </div>
 
           <div
-            className="text-[17px] leading-[25px] font-semibold text-white text-left"
+            className="text-[17px] leading-[25px] font-semibold text-white text-left cursor-pointer"
             onClick={openModal}
           >
             Delete account
